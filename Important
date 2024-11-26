@@ -1,0 +1,18 @@
+Functions:
+
+Matrix Style Effect
+
+The letters fall down in a "matrix" style while the text is output.
+Real-time color changes and random positions for maximum dynamics.
+Moving error messages
+
+The fake error windows appear in random positions and move automatically.
+Full screen and text scroller
+
+Hacker text is output in a central window, while matrix animations run outside.
+Progress bar remains
+
+The system takeover is represented by a realistic loading bar.
+Easily terminable
+
+Press Escape to exit the full screen, or Ctrl+C to end the simulation.
