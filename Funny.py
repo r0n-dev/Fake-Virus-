@@ -7,12 +7,10 @@ import time
 chaos_active = True
 
 def random_text_line(length=100):
-    """Generiert eine zufällige Zeile im Hacker-Stil."""
     chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':,./<>?"
     return ''.join(random.choice(chars) for _ in range(length))
 
 def matrix_effect(canvas, width, height):
-    """Simuliert einen Matrix-Stil-Effekt."""
     while chaos_active:
         x = random.randint(0, width)
         y = random.randint(0, height)
@@ -23,7 +21,6 @@ def matrix_effect(canvas, width, height):
         time.sleep(0.01)
 
 def fake_hacking_output(text_widget):
-    """Scrollt Text im Hacker-Stil in einem Fenster."""
     while chaos_active:
         line = random_text_line(random.randint(50, 100))
         text_widget.insert(tk.END, line + "\n")
@@ -31,7 +28,6 @@ def fake_hacking_output(text_widget):
         time.sleep(0.05)
 
 def moving_error_window():
-    """Erzeugt ein Fake-Fehlerfenster, das sich bewegt."""
     while chaos_active:
         root = tk.Tk()
         root.title("Critical Error")
@@ -42,7 +38,6 @@ def moving_error_window():
         root.mainloop()
 
 def dramatic_progress_bar(canvas, progress_var, label_var):
-    """Simuliert eine Fortschrittsanzeige für den "Hack". """
     for i in range(101):
         progress_var.set(i)
         label_var.set(f"Übernahme zu {i}% abgeschlossen...")
@@ -50,7 +45,6 @@ def dramatic_progress_bar(canvas, progress_var, label_var):
         time.sleep(0.05)
 
 def dramatic_loading_screen():
-    """Zeigt einen Ladebildschirm mit Fortschrittsanzeige."""
     root = tk.Tk()
     root.title("System Breach")
     root.geometry("400x200")
@@ -63,7 +57,6 @@ def dramatic_loading_screen():
     root.mainloop()
 
 def fullscreen_hacking_window():
-    """Erzeugt ein Vollbild-Hacking-Fenster mit Matrix-Effekt."""
     root = tk.Tk()
     root.title("Hacking in Progress...")
     root.attributes("-fullscreen", True)  
@@ -84,7 +77,6 @@ def fullscreen_hacking_window():
     root.mainloop()
 
 def fake_terminal_interaction():
-    """Füllt das Terminal mit zufälligem Text."""
     chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
     while chaos_active:
         line = ''.join(random.choice(chars) for _ in range(80))
