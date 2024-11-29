@@ -2,4 +2,4 @@
 It's not a real computer virus but funny ( I hope )
 
 
-Nachdem sie es gestartet haben warten sie 10-15 sekunden und sehen sie was mit ihrem pc passiert
+After you launch it, wait 10-15 seconds and see what happens to your pc
